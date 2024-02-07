@@ -8,7 +8,7 @@ podAnnotations: {}
 ## ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
 ##
 affinity: {}
-
+serviceType: ClusterIP
 ## Node tolerations for node-exporter scheduling to nodes with taints
 ## Ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
 ##
