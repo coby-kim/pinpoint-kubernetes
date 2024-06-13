@@ -106,7 +106,7 @@ pinpoint-web:
 pinpoint-mysql:
   image:
     repository: pinpointdocker/pinpoint-mysql
-    tag: 3.0.0
+    tag: 2.5.4
     pullPolicy: IfNotPresent
 
   rootPassword: root123
